@@ -14,10 +14,14 @@ export function HeroSection() {
         <div className="mb-8">
           <div className="relative w-48 h-48 mx-auto mb-6">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+<<<<<<< refs/remotes/origin/felipe
+              src="/fotoperfil.png"
+=======
+              src="/perfil.png"
+>>>>>>> local
               alt="Foto de perfil"
               fill
-              className="rounded-full object-cover border-4 border-portfolio-purple shadow-lg"
+              className="rounded-full  object-cover border-4 border-portfolio-purple shadow-lg"
               priority
             />
           </div>
@@ -26,7 +30,7 @@ export function HeroSection() {
         {/* Descripción personal */}
         <div className="mb-8 space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold text-portfolio-darkBlue dark:text-portfolio-cream mb-4">
-            ¡Hola! Soy <span className="text-portfolio-purple">Desarrollador</span>
+            ¡Hola! Soy <span className="text-portfolio-purple">Felipe Muñoz</span>
           </h1>
 
           <p className="text-lg md:text-xl text-portfolio-darkBlue/80 dark:text-portfolio-cream/80 max-w-2xl mx-auto leading-relaxed">

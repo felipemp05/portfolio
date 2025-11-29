@@ -1,6 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
+import { SiReact, SiLaravel, SiNextdotjs, SiCakephp, SiTypescript, SiTailwindcss, SiVuedotjs, SiNodedotjs, SiPython } from "react-icons/si";
 
 /**
  * Carrusel de Tecnologías
@@ -9,20 +10,22 @@ import { Card } from "@/components/ui/card"
 export function TechCarousel() {
   // Tecnologías que manejo
   const technologies = [
-    { name: "React", color: "bg-blue-500", icon: "⚛️" },
-    { name: "Laravel", color: "bg-red-500", icon: "🔧" },
-    { name: "CakePHP", color: "bg-yellow-500", icon: "🍰" },
-    { name: "Next.js", color: "bg-black", icon: "▲" },
-    { name: "TypeScript", color: "bg-blue-600", icon: "📘" },
-    { name: "Tailwind CSS", color: "bg-cyan-500", icon: "🎨" },
-  ]
+  { name: "React", color: "bg-blue-500", icon: <SiReact size={32} /> },
+  { name: "Laravel", color: "bg-red-500", icon: <SiLaravel size={32} /> },
+  { name: "CakePHP", color: "bg-yellow-500", icon: <SiCakephp size={32} /> },
+  { name: "Next.js", color: "bg-black", icon: <SiNextdotjs size={32} /> },
+  { name: "TypeScript", color: "bg-blue-600", icon: <SiTypescript size={32} /> },
+  { name: "Tailwind CSS", color: "bg-cyan-500", icon: <SiTailwindcss size={32} /> },
+];
+
 
   // Tecnologías próximas
   const comingSoon = [
-    { name: "Vue.js", color: "bg-green-500", icon: "💚" },
-    { name: "Python", color: "bg-yellow-600", icon: "🐍" },
-    { name: "Node.js", color: "bg-green-600", icon: "🟢" },
-  ]
+  { name: "Vue.js", color: "bg-green-500", icon: <SiVuedotjs size={28} /> },
+  { name: "Python", color: "bg-yellow-600", icon: <SiPython size={28} /> },
+  { name: "Node.js", color: "bg-green-600", icon: <SiNodedotjs size={28} /> },
+];
+
 
   return (
     <section id="tecnologias" className="py-16 px-4 bg-portfolio-purple/5 dark:bg-portfolio-purple/10">
