@@ -14,11 +14,7 @@ export function HeroSection() {
         <div className="mb-8">
           <div className="relative w-48 h-48 mx-auto mb-6">
             <Image
-<<<<<<< refs/remotes/origin/felipe
-              src="/fotoperfil.png"
-=======
               src="/perfil.png"
->>>>>>> local
               alt="Foto de perfil"
               fill
               className="rounded-full  object-cover border-4 border-portfolio-purple shadow-lg"
